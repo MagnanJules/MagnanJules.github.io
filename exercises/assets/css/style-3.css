@@ -49,7 +49,9 @@ textarea,
 select {
     font: inherit
 }
-
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+section { padding: 4% 20% }
+section *:last-child { margin-bottom: 0 !important }
 
 h2 {
     font-size: 56px;

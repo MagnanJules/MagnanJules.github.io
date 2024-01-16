@@ -1,4 +1,7 @@
 /*  ============= WEB BROWSER RESETS ============ */
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -50,9 +53,14 @@ select {
     font: inherit
 }
 
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+body {
+    padding: 4% 20%
+}
+
 h1 {
     text-align: center;
-    font-size: 86px;
+    font-size: 84px;
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 32px;
