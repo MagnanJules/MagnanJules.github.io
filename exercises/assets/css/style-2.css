@@ -21,6 +21,8 @@ html {
 }
 
 body {
+    background-color: #c7417b;
+    color: #1f306e;
     line-height: 1.5;
     min-height: 100vh
 }
