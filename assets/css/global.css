@@ -56,22 +56,23 @@ select {
 
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: serif;
     }
 
 h1 {
     color: #264e70;
-    font-size: 78px;
+    font-size: 70px;
     font-weight: normal;
     letter-spacing: -2px;
-    margin-bottom: 12px;
+    margin-bottom: 54px;
+    margin-top: 54px;
     line-height: 1.2;
 }
 
 h2 {
     color: #264e70;
     font-size: 42px;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
     margin-bottom: 48px;
     line-height: 1.2;
 }
@@ -90,3 +91,4 @@ p {
     font-size: 20px;
     margin-bottom: 16px;
 }
+
