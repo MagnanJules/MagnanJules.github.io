@@ -92,3 +92,12 @@ p {
     margin-bottom: 16px;
 }
 
+a:link, a:visited {
+    color: #c7417b;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: #553772;
+    text-decoration: underline;
+}
