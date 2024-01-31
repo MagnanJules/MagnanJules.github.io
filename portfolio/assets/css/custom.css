@@ -119,56 +119,6 @@ body {
     text-transform: uppercase;
 }
 
-
-/* First Section */
-
-p {
-    font-size: 30px;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-}
-
-h2 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-}
-
-.first-section {
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 6px;
-    text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.fashion,
-.crypto,
-.hero,
-.multi-hero, 
-.smoothies
-{
-    padding: 20px;
-    margin-bottom: 42px;
-    width: 23%;
-}
-
-@media (max-width: 767px) {
-.fashion, .crypto, .hero, .multi-hero, .smoothies {
-    width: 100%;
-  }
-}
-
-/*back home*/
-.back-to-home {
-    text-align: center;
-}
-
 /*button*/
 .button-74 {
   background-color: #fbeee0;
@@ -205,6 +155,103 @@ h2 {
   }
 }
 
+
+/* First Section */
+
+p {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.first-section {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.first-section span {
+    color: #F28585;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.fashion,
+.crypto,
+.hero,
+.multi-hero, 
+.smoothies
+{
+    padding: 20px;
+    margin-bottom: 42px;
+    width: 23%;
+    border: 2px solid #553772;
+    border-radius: 6%;
+}
+
+.fashion h3,
+.crypto h3,
+.hero h3,
+.multi-hero h3,
+.smoothies h3 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.fashion p,
+.crypto p,
+.hero p,
+.multi-hero p, 
+.smoothies p {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.fashion button,
+.crypto button,
+.hero button,
+.multi-hero button,
+.smoothies button {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767px) {
+.fashion, .crypto, .hero, .multi-hero, .smoothies {
+    width: 100%;
+  }
+}
+
+/*back home*/
+.back-to-home {
+    text-align: center;
+}
+
+
+
+
+
+/*Animations*/
+
 .fade-in-fwd {
 	-webkit-animation: fade-in-fwd 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-fwd 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -237,4 +284,16 @@ h2 {
             transform: translateZ(0);
     opacity: 1;
   }
+}
+
+
+/*links*/
+a:link, a:visited {
+    color: #c7417b;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: #553772;
+    text-decoration: underline;
 }
