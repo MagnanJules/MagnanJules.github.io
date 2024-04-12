@@ -22,7 +22,7 @@ html {
 
 body {
 
-    background-color: #fdebd3;
+    background-color: #AAD9BB;
     line-height: 1.5;
     min-height: 100vh
 }
@@ -108,7 +108,7 @@ a:hover, a:active, a:focus {
 /* SECTIONS */
 
 .pink-iced-section {
-    background-color: #d9d8fd;
+    background-color: #F5E8C7;
     padding: 50px;
     padding-left: 250px;
 }
@@ -166,7 +166,7 @@ a:hover, a:active, a:focus {
     color: #ffdafd;
     border: 12px solid #ffdafd;
     padding: 10px;
-    font-family: 'Baskervville', serif;
+    font-family: 'Baskervville';
 }
 
 .hero-block h1 {
